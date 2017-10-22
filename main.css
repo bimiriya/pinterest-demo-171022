@@ -1,0 +1,180 @@
+body {
+	margin: 0 auto;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+	display: block;
+	position: fixed;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background: white;
+}
+
+ul {
+	display: inline-block;
+	width: 90%;
+	margin: 8px 0;
+}
+
+ul * {
+	list-style: none;
+	display: inline;
+
+}
+
+.pinterest-icon {
+	display: inline-block;
+	background: #BD081B;
+	padding: 9px;
+	border-radius: 50%;
+}
+
+.pinterest-icon i {
+	color: white;
+	font-size: 20px;
+}
+
+#search-bar {
+	display: inline-block;
+	width: 70%;
+	margin: 0 23px;
+	background: #EFEFEF;
+	border-radius: 5px;
+	text-align: left;
+}
+
+#tag {
+	font-family: 'Oxygen', sans-serif!important;
+}
+
+#tag h3 {
+	font-size: 17px;
+	font-weight: thin;
+	color: #b5b5b5;
+}
+
+#tag i {
+	font-size: 18px;
+}
+
+.fa-user, .fa-bars, .fa-commenting {
+	margin: 0 15px;
+	color: #b5b5b5;
+}
+
+.fa-times {
+	margin: 15px;
+}
+
+.sfm input {
+    background-color: #EFEFEF;
+    font-size: 20px;
+    border: 0;
+    color: black;
+    font-family: 'Oxygen', sans-serif;
+    margin-left: 8px;
+    width: 78%;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.header2 {
+	display: inline-block
+	width: 100%;
+	border-top: 1px solid #b5b5b5;
+}
+
+.header2 * {
+	display: inline-block;
+	list-style: none;
+}
+
+.header2 li {
+	margin: 5px 15px;
+	padding: 20px;
+	border-radius: 10px;
+	font-weight: bold;
+	color: white;
+	background: pink;
+}
+
+.post {
+	display: inline-block;
+	margin-top: 150px;
+	width: 86%;
+	column-count: 4;
+	column-width: 200px;
+	margin-left: 7%;
+	column-gap: 20px;
+
+}
+
+.pic {
+	display: inline-block;
+	width: 270px;
+	margin-bottom: 20px;
+
+}
+
+img {
+	border-radius: 10px;
+	width: 270px;
+}
+
+.pic i {
+	font-size: 10px;
+	float: right;
+	color: #b5b5b5;
+	margin: 0 1px;
+}
+
+.pic h4 {
+	margin-right: 20px;
+}
+
+.pic p {
+	width: 180px;
+	margin: 0;
+}
+
+a:link, a:hover, a:visited {
+	color: initial;
+	text-decoration: none;
+}
+
+.user-info {
+	margin-top: 8px;
+	display: block;
+	height: 40px;
+	position: relative;
+	z-index: -1;
+}
+
+.user-circle {
+	margin: 0 auto;
+	float: left;
+	position: absolute;
+	background: pink;
+	border-radius: 50%;
+	color: white;
+	padding: 5px 10px;
+}
+
+
+.author {
+	float: left;
+	display: inline;
+	margin-left: 34px;
+	margin-top: 7px;
+}
+
+.user-info p {
+	font-size: 90%;
+	position: absolute;
+	top: 24px;
+	left: 34px;
+}
